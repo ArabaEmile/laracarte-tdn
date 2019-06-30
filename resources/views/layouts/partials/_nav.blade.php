@@ -29,11 +29,11 @@
                 
               </ul>
             </li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="{{set_active_route('contact_path')}}" ><a href="{{route('contact_path')}}">Contact</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
           <li><a href="#about">Login</a></li>
-         <li><a href="#contact">Register</a></li>
+         <li><a>Register</a></li>
         
           </ul>
         </div><!--/.nav-collapse -->

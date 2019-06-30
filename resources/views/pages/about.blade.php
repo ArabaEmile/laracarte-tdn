@@ -1,17 +1,16 @@
 @extends('layouts.default',['title'=>'About'])
 @section('content')
     <div clas="container">
-        <h2>What is {{config('app.name')}}?</h2>
-        <p>{{config('app.name')}} is a clone app of <a href="https://laramap.com" target="_blank"> Laramap.com.</a></p>
+    <div class="row">
+        
+            <div class="col-md-8 col-md-offset-2">
+            <h1>What is {{config('app.name')}}?</h1>
+             <p>{{config('app.name')}} is a clone app of <a href="https://laramap.com" target="_blank"> Laramap.com.</a></p>
 
-        <div class="row">
-            <div class="col-md-6">
                 <p class="alert alert-warning">
                     <strong><i class="fas fa-exclamation-triangle"></i>This app has been built by @etsmo for learning purposes.</strong>
                 </p>
-            </div>
-        </div>
-        <p>Feel free to help to improve the <a href="https://github.com/ArabaEmile/laracarte-tdn"> source code</a>.</p>
+                 <p>Feel free to help to improve the <a href="https://github.com/ArabaEmile/laracarte-tdn"> source code</a>.</p>
         <hr>
         <h2>What is Laramap?</h2>
         <p>Laramap is the website by which {{config('app.name')}} was inspired :).</p>
@@ -30,5 +29,8 @@
         <li>Michel Fortin's Markdown Parser Package</li>
         <li>Heroku</li>
         </ul>
+            </div>
+        </div>
+       
     </div>
 @endsection
